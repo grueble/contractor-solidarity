@@ -1,4 +1,4 @@
-+++
+<!-- +++
 draft = false
 date = "2019-12-23T12:09:32+02:00"
 publishdate = "2019-12-23T12:09:32+02:00"
@@ -69,4 +69,4 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 }
 }
 </style>
-{{< /css.inline >}}
+{{< /css.inline >}} -->

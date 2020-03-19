@@ -1,4 +1,4 @@
-+++
+<!-- +++
 draft = false
 date = "2019-12-23T12:09:32+02:00"
 publishdate = "2019-12-23T12:09:32+02:00"
@@ -80,4 +80,4 @@ Propoetides **parte**.
 <style>
 .canon { background: white; width: 100%; height: auto;}
 </style>
-{{< /css.inline >}}
+{{< /css.inline >}} -->

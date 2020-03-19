@@ -1,9 +1,11 @@
-+++
+<!-- +++
 draft = false
 date = "2019-10-16T12:33:32+02:00"
 publishdate = "2019-10-16T12:33:32+02:00"
 
-title = "Otro artículo de prueba"
+title = "Página"
+
+menu = "main"
 
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, mauris sed tincidunt dignissim, enim justo suscipit dui, vitae pharetra justo nulla at neque. Ut eu nulla in nisi dapibus efficitur. Donec sollicitudin ac arcu ac malesuada. Cras sapien orci, malesuada id ultrices ac, sodales sed est."
 
@@ -52,4 +54,4 @@ Aliquam sed dolor ut magna elementum accumsan. Etiam feugiat turpis eu lectus da
 
 Sed in ligula eget massa fermentum pharetra. Nam volutpat urna sed volutpat mattis. Vestibulum aliquet odio eget mauris tincidunt dapibus. Cras tortor mi, interdum et varius nec, finibus eget risus. Aliquam non euismod leo. Curabitur lobortis, nisl quis vehicula sagittis, nisl nunc hendrerit enim, nec lacinia eros erat et ligula. Aliquam in vestibulum nisi. Nunc quam justo, fringilla ac ipsum sit amet, tempus ultricies purus. Pellentesque ultricies, magna et interdum semper, dolor ante posuere urna, a dignissim leo velit feugiat erat. Ut facilisis, quam vel varius vehicula, elit ligula hendrerit velit, non malesuada turpis felis vel leo. Etiam commodo diam vel tellus imperdiet finibus. Integer eget nibh et tortor hendrerit malesuada. Suspendisse fermentum, turpis at luctus placerat, lorem tellus ultrices ante, et elementum lacus mi ac erat. Donec ac pulvinar arcu, vel volutpat est. Fusce suscipit suscipit sapien eu condimentum.
 
-Donec viverra nunc quis tortor suscipit luctus. Phasellus at tellus ut lectus pulvinar ultricies quis eu dolor. Nunc dapibus elementum tristique. In aliquam arcu ut malesuada feugiat. Aenean euismod lectus ut viverra dictum. Ut at nisl ac tellus porta tincidunt et vel sapien. Donec tempus facilisis dignissim. Morbi vel mauris in neque sagittis feugiat. Proin mollis lorem orci, accumsan vestibulum leo pharetra id. Donec convallis diam ut dolor vulputate, ut consequat neque volutpat. Fusce posuere elementum elit quis sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pulvinar iaculis enim et pellentesque. Quisque sed tempus purus. Etiam eget finibus metus. Donec eget nisl varius, porta orci eget, lacinia ipsum.
+Donec viverra nunc quis tortor suscipit luctus. Phasellus at tellus ut lectus pulvinar ultricies quis eu dolor. Nunc dapibus elementum tristique. In aliquam arcu ut malesuada feugiat. Aenean euismod lectus ut viverra dictum. Ut at nisl ac tellus porta tincidunt et vel sapien. Donec tempus facilisis dignissim. Morbi vel mauris in neque sagittis feugiat. Proin mollis lorem orci, accumsan vestibulum leo pharetra id. Donec convallis diam ut dolor vulputate, ut consequat neque volutpat. Fusce posuere elementum elit quis sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pulvinar iaculis enim et pellentesque. Quisque sed tempus purus. Etiam eget finibus metus. Donec eget nisl varius, porta orci eget, lacinia ipsum. -->
