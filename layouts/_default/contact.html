@@ -1,0 +1,62 @@
+
+{{ define "main" }}
+<div class="standard main rounded mt-4 mb-4" role="main">
+  <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
+    <h1 class="top-h1">
+      {{- .Title -}}
+    </h1>
+    <div class="ml-3 metadata">
+      <!-- {{ partial "metadata/metadata-date" . }}
+      {{ partial "metadata/metadata-readingtime" . }}
+      {{ if ne $.Kind "section" }}
+      {{ partial "metadata/metadata-section" . }} 
+      {{ end }} 
+      {{ partial "metadata/metadata-taxonomy" . }}
+      {{ partial "metadata/metadata-description" . }} -->
+    </div>
+    <hr />
+    
+    {{ if (gt (len (split .Content `</h`)) 2) }}
+    <div class="TableOfContents rounded p-2 ml-2 mb-2">
+      {{ partial "toc.html" . }}
+    </div>
+    {{ end }}
+
+  
+    <p>
+            Are you a contract worker in tech? If you’re interested in getting more resourced or sharing a story about your contracting experience, we want to hear from you. 
+    </p>
+    <div class="contact-form-container" >
+        <hr />
+            <h3 style="margin: 0 auto;">Contact Form</h3>
+        <hr />
+
+        <form action="mailto:you@yourwebsite.com" 
+            accept-charset="UTF-8"
+            class="contact-form">
+    
+            <p>
+                <label for="fullname">First Name</label>
+                <input type="text" name="fullname">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <textarea name="message" rows="5" ></textarea>
+            </p>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+   
+
+
+  </article>
+</div>
+{{ end }}
+
+
+

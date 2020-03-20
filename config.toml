@@ -1,4 +1,40 @@
+
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "khata"
+[params.author]
+  profilePhoto = "https://i.ytimg.com/vi/tJdgErAfiRQ/maxresdefault.jpg"
+
+  
+
+buildDrafts = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+  [[menu.kyr]]
+    identifier = "Know Your Rights"
+    name = "Know Your Rights"
+    title = "Know Your Rights"
+    url = "/kyr/"
+  [[menu.contact]]
+    identifier = "Contact"
+    name = "Contact"
+    title = "Contact"
+    url = "/contact"
+  [[menu.reading]]
+    identifier = "Reading"
+    name = "Reading"
+    title = "Reading"
+    url = "/reading"
+  [[menu.history]]
+    identifier = "History"
+    name = "History"
+    title = "History"
+    url = "/history"
+
