@@ -1,7 +1,7 @@
 
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Tech Contracting"
 theme = "khata"
 [params.author]
   profilePhoto = "https://i.ytimg.com/vi/tJdgErAfiRQ/maxresdefault.jpg"

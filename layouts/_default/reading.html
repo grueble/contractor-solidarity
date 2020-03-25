@@ -25,6 +25,7 @@
     <div>
         {{ range .Params.myArray }}
             <h4><a href="{{ .link }}" target="_blank"> {{ .title }} </a></h4>
+            <i>- {{ .source }}</i>
             <p> {{ .pullquote }} </p>
             <hr />
         {{ end }}
