@@ -1,5 +1,0 @@
----
-link: "./tricks"
----
-
-TRICSKSSSSSS

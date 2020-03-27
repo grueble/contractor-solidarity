@@ -2,6 +2,7 @@
 link: './tips'
 type: 'page'
 title: "Reading List"
-directory: "resources"
+layout: "breadcrumb_page"
+subDirectory: "Know Your Rights"
 ---
 TIPSSSSSSSS

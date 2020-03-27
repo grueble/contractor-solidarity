@@ -1,7 +1,7 @@
 ---
 title: "Covid Response (title)"
 type: "page"
-layout: "covid"
+layout: "breadcrumb_page"
 subDirectory: "Resources"
 link: "./covid/"
 ---

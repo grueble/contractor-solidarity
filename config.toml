@@ -22,7 +22,7 @@ buildDrafts = true
     name = "Resources"
     title = "Resources"
     url = "/resources/"
-  [[menu.kyr]]
+  [[menu."Know Your Rights"]]
     identifier = "Know Your Rights"
     name = "Know Your Rights"
     title = "Know Your Rights"

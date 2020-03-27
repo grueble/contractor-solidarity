@@ -1,5 +1,5 @@
 ---
 title: "Resources"
 type: "page"
-layout: "resources"
+layout: "subdomain_container"
 ---

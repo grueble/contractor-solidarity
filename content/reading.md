@@ -1,7 +1,7 @@
 ---
 title: "Reading List"
 type: "page"
-layout: "reading"
+layout: "reading.html"
 link: "./reading/"
 subDirectory: "Resources"
 myArray: [
