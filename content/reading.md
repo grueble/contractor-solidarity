@@ -2,6 +2,8 @@
 title: "Reading List"
 type: "page"
 layout: "reading"
+link: "./reading/"
+subDirectory: "Resources"
 myArray: [
     {
         title: "Facebook contractors faced Christmas ultimatum: accept wage offer or lose jobs",
@@ -77,3 +79,4 @@ myArray: [
     }
 ]
 ---
+thi is the reading list response content
