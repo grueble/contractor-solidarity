@@ -1,8 +1,8 @@
 ---
 link: './tips'
 type: 'page'
-title: "Reading List"
+title: "Tips"
 layout: "breadcrumb_page"
-subDirectory: "Know Your Rights"
+subdirectory: "Know Your Rights"
 ---
 TIPSSSSSSSS

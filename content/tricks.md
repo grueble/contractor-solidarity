@@ -1,8 +1,9 @@
 ---
 link: "./tricks"
-subDirectory: "Know Your Rights"
+subdirectory: "Know Your Rights"
 layout: "breadcrumb_page"
-title: "bleh"
+title: "Tricks" 
+type: "page"
 ---
 
 TRICSKSSSSSS

@@ -1,7 +1,7 @@
 ---
 title: "Reading List"
 type: "page"
-layout: "reading.html"
+layout: "breadcrumb_page"
 link: "./reading/"
 subDirectory: "Resources"
 myArray: [
@@ -79,4 +79,5 @@ myArray: [
     }
 ]
 ---
-thi is the reading list response content
+
+test content

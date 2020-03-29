@@ -17,7 +17,7 @@ buildDrafts = true
     name = "Home"
     title = "Home"
     url = "/"
-  [[menu.resources]]
+  [[menu."Resources"]]
     identifier = "Resources"
     name = "Resources"
     title = "Resources"
@@ -26,6 +26,12 @@ buildDrafts = true
     identifier = "Know Your Rights"
     name = "Know Your Rights"
     title = "Know Your Rights"
-    url = "/kyr/"
+    url = "/rights/"
+
+[params.SubDomainPages]
+  "Know Your Rights" = true
+  "Kyr" = true
+  "Rights" = true
+  "Resources" = true
 
 
