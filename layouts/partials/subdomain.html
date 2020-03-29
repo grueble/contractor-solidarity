@@ -4,7 +4,7 @@
         {{- .Page.Title -}}
       </h1>
 
-      <h2> test: {{ .Page.Title }} </h2>
+      <!-- <h2> test: {{ .Page.Title }} </h2> -->
       <div>
           {{ range where .Site.Pages ".Params.subdirectory" "=" .Page.Title }}
               <h3> {{ .Params.Title }} </h3>

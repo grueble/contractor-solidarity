@@ -2,12 +2,11 @@
 
 
 {{ define "main"}}
-  <h1> 
+  <!-- <h1> 
     test for breadcrumb page: {{ .Page.Title }} 
-  </h1>
+  </h1> -->
 
   {{ if eq .Page.Title "Reading List" }}
-    reading is here
     {{ partial "reading.html" . }}
 
   {{ else }}
@@ -18,10 +17,8 @@
           {{- .Page.Title -}}
         </h1>
   
-        <div>
-            breadcrumb thingy
-            <a href=""> link </a>
-        </div>
+        {{ partial "breadcrumb_nav.html" .}}
+
   
           {{ .Content }}
      

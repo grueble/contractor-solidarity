@@ -8,10 +8,7 @@
         {{- .Page.Title -}}
       </h1>
 
-      <div>
-          breadcrumb thingy
-          <a href=""> link </a>
-      </div>
+        {{ partial "breadcrumb_nav.html" . }}
 
         {{ .Content }}
    

@@ -14,6 +14,9 @@
       {{ partial "metadata/metadata-description" . }} -->
     </div>
     <hr />
+
+    {{ partial "breadcrumb_nav.html" . }}
+
     
     {{ if (gt (len (split .Content `</h`)) 2) }}
     <div class="TableOfContents rounded p-2 ml-2 mb-2">

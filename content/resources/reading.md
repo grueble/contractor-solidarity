@@ -3,6 +3,7 @@ title: "Reading List"
 type: "page"
 layout: "breadcrumb_page"
 link: "./reading/"
+sublink: "/resources"
 subDirectory: "Resources"
 myArray: [
     {
