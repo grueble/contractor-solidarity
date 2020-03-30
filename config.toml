@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Tech Contracting"
 theme = "khata"
 [params.author]
-  profilePhoto = "https://i.ytimg.com/vi/tJdgErAfiRQ/maxresdefault.jpg"
+  profilePhoto = "./images/workerbee.jpg"
 
   
 
