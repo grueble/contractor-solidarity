@@ -81,4 +81,4 @@ myArray: [
 ]
 ---
 
-test content
+A selection of readings to keep you up to date on contracting in tech.

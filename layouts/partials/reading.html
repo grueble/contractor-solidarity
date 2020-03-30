@@ -1,21 +1,11 @@
 
 <div class="standard main rounded mt-4 mb-4" role="main">
   <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
-    <h1 class="top-h1">
-      {{- .Title -}}
-    </h1>
-    <div class="ml-3 metadata">
-      <!-- {{ partial "metadata/metadata-date" . }}
-      {{ partial "metadata/metadata-readingtime" . }}
-      {{ if ne $.Kind "section" }}
-      {{ partial "metadata/metadata-section" . }} 
-      {{ end }} 
-      {{ partial "metadata/metadata-taxonomy" . }}
-      {{ partial "metadata/metadata-description" . }} -->
-    </div>
+    
+    {{ partial "single-header.html" . }}
+
     <hr />
 
-    {{ partial "breadcrumb_nav.html" . }}
 
     
     {{ if (gt (len (split .Content `</h`)) 2) }}

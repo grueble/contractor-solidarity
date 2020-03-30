@@ -2,7 +2,7 @@
 {{ define "main" }}
 <div class="standard main rounded mt-4 mb-4" role="main">
   <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
-    <h1 class="top-h1">
+    <h1 class="top-h1 subdir-header">
       {{- .Title -}}
     </h1>
     <div class="ml-3 metadata">
@@ -14,7 +14,6 @@
       {{ partial "metadata/metadata-taxonomy" . }}
       {{ partial "metadata/metadata-description" . }} -->
     </div>
-    <hr />
     
     {{ if (gt (len (split .Content `</h`)) 2) }}
     <div class="TableOfContents rounded p-2 ml-2 mb-2">

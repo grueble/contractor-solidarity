@@ -1,15 +1,21 @@
 <div class="standard main rounded mt-4 mb-4" role="main">
     <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
-      <h1 class="top-h1">
-        {{- .Page.Title -}}
-      </h1>
+      <div class="subdir-header">
+          <h1 class="top-h1 subdir-header">
+              {{- .Page.Title -}}
+          </h1>
+          <h5> {{ .Page.Params.subtitle }} </h5>
+      </div>
+
 
       <!-- <h2> test: {{ .Page.Title }} </h2> -->
-      <div>
+      <div class="subpages-container">
           {{ range where .Site.Pages ".Params.subdirectory" "=" .Page.Title }}
-              <h3> {{ .Params.Title }} </h3>
-              <h3> summary: {{ .Summary }} </h3>
-              <a href="{{ .Params.Link }}">Link to {{ .Params.Title }} </a>
+          <div class="subpage-section">
+              <h4> {{ .Params.Title }} </h4>
+              <p> {{ .Params.CustomSummary | default .Summary }} </p>
+              <a href="{{ .Params.Link }}">Read more </a>
+          </div>
           {{ end }}
       </div>
   

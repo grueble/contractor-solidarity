@@ -1,5 +1,5 @@
 ---
-title: "Covid Response (title)"
+title: "Covid 19 Resources"
 type: "page"
 layout: "breadcrumb_page"
 subDirectory: "Resources"
