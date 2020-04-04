@@ -19,7 +19,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/history/</loc>
+    <loc>http://example.org/resources/history/</loc>
   </url>
   
   <url>
@@ -36,6 +36,10 @@
   
   <url>
     <loc>http://example.org/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/kyr/</loc>
   </url>
   
   <url>

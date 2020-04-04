@@ -139,8 +139,20 @@ div.subdir-header {
 
 .single-page-header {
     padding: 10px 0px;
+    margin-bottom: 15px;
 }
 
 .breadcrumb-navbar {
     font-size: 23px;
 }
+
+/* experimental styles */
+
+    /* .header {
+        background: #F1ED10;
+
+    }
+    .main-menu a {
+        color : black !important;
+
+    } */

@@ -37,16 +37,21 @@ For decades, independent contracting has been touted as the answer to workers mo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/resources/covid/</guid>
-      <description>this is the covid response content</description>
+      <description>Working class people across the world are organizing and mobilizing to support each other at the sites of the workplace, housing, and beyond to deal with this new health crisis. When the ruling class fails to take care of us, we will find ways to take care of each other, and organize for even better labor and living conditions. This article features mostly US-based local initiatives and programs to alleviate the effects of the pandemic and its various impacts on workers.</description>
     </item>
     
     <item>
       <title>History of Contracting</title>
-      <link>http://example.org/history/</link>
+      <link>http://example.org/resources/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/history/</guid>
-      <description></description>
+      <guid>http://example.org/resources/history/</guid>
+      <description>TVCs have been around since the beginning of the tech industry
+The 1992 Landmark Temp-Worker Microsoft Case
+  In 1992, contract &amp;amp; temporary workers at Microsoft filed a lawsuit against being misclassified as independent contractors despite being &amp;ldquo;Perma-temps&amp;rdquo;
+  Working full-time or more hours.
+  Working alongside full-time employees.
+  Despite being labeled as temporary or seasonal workers, many Microsoft contractors were working for the company for many years.</description>
     </item>
     
     <item>
@@ -77,12 +82,24 @@ For decades, independent contracting has been touted as the answer to workers mo
     </item>
     
     <item>
-      <title>Tips</title>
+      <title>Rights, Retaliation, and HR</title>
+      <link>http://example.org/kyr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/kyr/</guid>
+      <description>YOUR RIGHT TO ORGANIZE AT WORK
+In most cases, joining together with your coworkers to improve your working conditions under your contracting company is your legally protected right under the National Labor Relations Act (NLRA) [https://www.nlrb.gov/how-we-work/national-labor-relations-act]. However, certain types of employees (like Independent Contractors on a 1099) do not have these same protections.
+To learn more about your workplace organizing right and who is covered, go to https://www.nlrb.gov/rights-we-protect/rights/employee-rights and https://www.nlrb.gov/resources/faq/nlrb.</description>
+    </item>
+    
+    <item>
+      <title>Tips for Documentation</title>
       <link>http://example.org/tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tips/</guid>
-      <description>Tips go here.</description>
+      <description>&amp;ldquo;Start a Job Journal, noting positive and negative comments from supervisors and managers. Keep notes from meetings, schedule changes, etc. Make sure you note when, where, why, etc. Save company memos and pay stubs, ANYTHING that you think will help your case if you must use a government agency to fight the boss.&amp;rdquo; - IWW
+All your notes should have the date at the top of each page, and next to any notable action or important statement, jot down the time if possible.</description>
     </item>
     
     <item>

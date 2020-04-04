@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        
+        <title>Rights, Retaliation, and HR - Tech Contracting</title>
+        
+      
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+      
+        
+        <meta name="generator" content="khata theme by Darshan in Hugo 0.67.1" />
+        
+      
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+          crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/css/khata.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans:400|Roboto+Mono&display=swap" rel="stylesheet">
+
+       
+        <link href="/css/custom.css" rel="stylesheet"  type="text/css">
+        <script src="/js/khata.js" /></script>
+      </head>
+  <body class="bg-light">
+    <div class="wrapper">
+      <div class="header">
+    <nav id="main-nav">
+      <div class="hamburger-icon-container">
+        <span class="text-white border-bottom text-uppercase ml-2">Tech Contracting</span>
+        <i class="hamburger fas fa-bars mr-4" onclick="toggleMainMenu(this)"></i>
+      </div>
+      <div class="all-menu expanded standard">
+        <div class="main-menu"><a href="/">Home</a></div>
+
+        <div class="main-menu"><a href="/resources">Resources</a></div>
+
+        <div class="main-menu"><a href="/rights">Know Your Rights</a></div>
+
+        <div class="main-menu"><a href="/contact">Contact</a></div>
+
+      </div>
+    </nav>
+  </div>
+  <script>
+    let toggleDisplay = function(elem) {
+      elem.classList.toggle("d-none");
+    };
+    let toggleMainMenu = function(x) {
+      toggleDisplay(x.parentNode.nextElementSibling);
+      document.querySelector(".hamburger").classList.toggle("fa-bars");
+      document.querySelector(".hamburger").classList.toggle("fa-times");
+      if (document.querySelector(".dropdown-content")) {
+        resetSectionMenu();
+        zeroHeight(document.querySelector(".dropdown-content"));
+      }
+    };
+    let resetMainMenu = function() {
+      document.querySelector(".hamburger").classList.add("fa-bars");
+      document.querySelector(".hamburger").classList.remove("fa-times");
+    };
+    function smMenu(x) {
+      let allMenu = document.querySelector(".all-menu");
+      let dropDown = document.querySelector(".dropdown-content");
+      if (x.matches) {
+        allMenu.classList.add("d-none");
+        allMenu.style.flexDirection = "column";
+        if (dropDown) {
+          resetSectionMenu();
+          dropDown.style.width = "calc(90vw - 4.5px)";
+          dropDown.style.maxHeight = "0px";
+          dropDown.style.position = "static";
+        }
+        resetMainMenu();
+      } else {      
+        allMenu.classList.remove("d-none");
+        allMenu.style.flexDirection = "row";
+        if (dropDown) {
+          dropDown.style.width = "auto";
+          resetSectionMenu();
+          dropDown.style.maxHeight = "0px";
+          dropDown.style.position = "absolute";
+        }
+        resetMainMenu();
+      }
+    }
+    let vw = window.matchMedia("(max-width: 750px)");
+    smMenu(vw); 
+    vw.addListener(smMenu); 
+  </script>
+  
+      <main>
+        
+  
+
+  
+
+  <div class="standard main rounded mt-4 mb-4" role="main">
+      <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
+         <div class="single-page-header">
+    <h1 class="top-h1">Rights, Retaliation, and HR</h1>
+    <h5>  </h5>
+
+    <div class="breadcrumb-navbar">
+    <a href="/"> Home / </a>
+    <a href="/rights"> Know Your Rights / </a>
+    <span> Rights, Retaliation, and HR </span>
+</div>
+
+
+  </div>
+
+  
+          <p>YOUR RIGHT TO ORGANIZE AT WORK</p>
+<p>In most cases, joining together with your coworkers to improve your working conditions under your contracting company is your legally protected right under the National Labor Relations Act (NLRA) [<a href="https://www.nlrb.gov/how-we-work/national-labor-relations-act">https://www.nlrb.gov/how-we-work/national-labor-relations-act</a>]. However, certain types of employees (like Independent Contractors on a 1099) do not have these same protections.</p>
+<p>To learn more about your workplace organizing right and who is covered, go to <a href="https://www.nlrb.gov/rights-we-protect/rights/employee-rights">https://www.nlrb.gov/rights-we-protect/rights/employee-rights</a> and <a href="https://www.nlrb.gov/resources/faq/nlrb">https://www.nlrb.gov/resources/faq/nlrb</a>.</p>
+<p>HELPFUL LINKS</p>
+<p>National Labor Relations Board (<a href="https://www.nlrb.gov/">https://www.nlrb.gov/</a>)</p>
+<p>WA State Dept. of Labor &amp; Industries (<a href="https://www.lni.wa.gov/">https://www.lni.wa.gov/</a>)</p>
+<p>TIPS FOR MEETING WITH HR</p>
+<p>HR is Not Your Friend. HR is hired to protect the company. They may try to act friendly and pretend that they want to help you, but really they are just trying to get information from you that can be used against you.</p>
+<p>Use the Buddy System. Ask a trusted coworker to join you if you believe the meeting may result in disciplinary action. Union employees have <a href="https://local128.org/sites/default/files/theweingartenrule.pdf">this right</a> and <a href="https://www.employerlawreport.com/2017/09/articles/labor-relations/non-union-employers-may-have-to-allow-employees-representation-in-some-investigation-interviews/">non-union employers may have to respect this as well</a>.</p>
+<p>Let Others Know. Before the meeting, let a group of trusted coworkers that you&rsquo;re about to go into a meeting and with whom. If you are suddenly called into a meeting, try to stall by saying you need to go to the bathroom first or need to get something from your desk before meeting.</p>
+<p>Take Notes. During the meeting, take notes on everything they say, especially if it could be a violation of your rights. If a coworker has joined you, have them take notes as well.</p>
+<p>Get it in Writing. Ask for written documentation of any allegations made against you and get copies of anything they ask you to sign. If possible, ask for these things in a follow-up e-mail so you will have their response documented.</p>
+<p>Don&rsquo;t Sign Anything. If you are required to sign anything but believe you are being coerced or retaliated against, write a note to document that below or beside your signature.</p>
+<p>Share Notes. Immediately after a meeting, share notes with trusted coworkers or organizers, who can help to judge whether your rights were violated, answer questions related to fears/doubts management may have planted, and decide on next steps.</p>
+<p>GUIDE TO WORKPLACE RETALIATION</p>
+<p>What is Protected Concerted Activity?</p>
+<p>Under the National Labor Relations Act, workers have the right to join together to improve their wages and working conditions, with or without a union being involved. There is protected concerted activity when two or more employees act together to improve their terms and conditions of employment. Employers cannot retaliate against you for engaging in protected concerted activity.</p>
+<p>What is retaliation?</p>
+<p>In the U.S., retaliation is ANY adverse effect that the company, including anyone in a supervisory role, takes against you, or THREATENS  to take against you, in response to concerted activity with your coworkers. It could include what is called a &ldquo;buy off&rdquo; where the company attempts to promote or otherwise reward you directly, in exchange for stopping your organizing activity.</p>
+<p>If retaliation occurs&hellip;</p>
+<p>Document it!</p>
+<p>As soon as you suspect retaliation, begin documenting who, what, where, and when things occurred. If you have trusted witnesses to the events, ask them to also document. Take screenshots or photos if retaliation is recorded in writing, or an email/other digital communication.</p>
+<p>Talk to your coworkers!</p>
+<p>Talk to your network of coworkers who are working with you so they can take action to protect you. Use strength in numbers to let management know that retaliation and intimidation will not be tolerated.</p>
+<p>File a Complaint</p>
+<p>Filing a formal Unfair Labor Practices (ULP) charge against your employer  may be warranted or useful. You can consult with an NLRB lawyer at no cost to learn more about your options and whether you have a solid claim. The lawyer can also talk to you about the pros/cons of filing and what it will mean for your situation. You can also file a retaliation complaint with the Washington State Department of Labor and Industries. Consult your local WA L&amp;I office for guidance.</p>
+
+     
+      </article>
+  </div>
+
+  
+
+
+      </main>
+    </div>
+    <div class="footer">
+        
+    </div>
+  </body>
+</html>
