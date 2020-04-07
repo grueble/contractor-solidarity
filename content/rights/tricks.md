@@ -1,9 +1,9 @@
 ---
 link: "./tricks/"
-subdirectory: "Know Your Rights"
+subdirectory: "Rights"
 sublink: "/rights"
 layout: "breadcrumb_page"
-title: "Tricks" 
+title: "Tricks"
 type: "page"
 CustomSummary: "There are a number of reasons behind why contracting is so lucrative for businesses. Some of these decisions are made behind the scenes, but many others are done face-to-face."
 ---

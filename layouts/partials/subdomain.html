@@ -2,7 +2,7 @@
     <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
       <div class="subdir-header">
           <h1 class="top-h1 subdir-header">
-              {{- .Page.Title -}}
+              {{- (.Page.Params.altTitle | default .Page.Title) -}}
           </h1>
           <h5> {{ .Page.Params.subtitle }} </h5>
       </div>

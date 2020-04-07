@@ -1,5 +1,6 @@
 ---
-title: "Know Your Rights"
+title: "Rights"
+altTitle: "Know Your Rights"
 type: "page"
 layout: "subdomain_container"
 isSubDomain: true

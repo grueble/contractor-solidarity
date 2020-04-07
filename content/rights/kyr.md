@@ -1,5 +1,5 @@
 ---
-subdirectory: "Know Your Rights"
+subdirectory: "Rights"
 link: "./kyr/"
 type: "page"
 title: "Rights, Retaliation, and HR"
