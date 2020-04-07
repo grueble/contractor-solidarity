@@ -5,11 +5,12 @@ type: "page"
 title: "Rights, Retaliation, and HR"
 layout: "breadcrumb_page"
 sublink: "/rights"
+CustomSummary: "In most cases, joining together with your coworkers to improve your working conditions under your contracting company is your legally protected right under the National Labor Relations Act (NLRA)."
 ---
 
 YOUR RIGHT TO ORGANIZE AT WORK
 
-In most cases, joining together with your coworkers to improve your working conditions under your contracting company is your legally protected right under the National Labor Relations Act (NLRA) [<https://www.nlrb.gov/how-we-work/national-labor-relations-act>]. However, certain types of employees (like Independent Contractors on a 1099) do not have these same protections.
+In most cases, joining together with your coworkers to improve your working conditions under your contracting company is your legally protected right under the National Labor Relations Act [NLRA](https://www.nlrb.gov/how-we-work/national-labor-relations-act). However, certain types of employees (like Independent Contractors on a 1099) do not have these same protections.
 
 To learn more about your workplace organizing right and who is covered, go to <https://www.nlrb.gov/rights-we-protect/rights/employee-rights> and <https://www.nlrb.gov/resources/faq/nlrb>.
 

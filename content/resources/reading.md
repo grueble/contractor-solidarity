@@ -5,6 +5,7 @@ layout: "breadcrumb_page"
 link: "./reading/"
 sublink: "/resources"
 subDirectory: "Resources"
+CustomSummary: "A reading primer for understanding the TVC struggle in the tech industry."
 myArray: [
     {
         title: "Facebook contractors faced Christmas ultimatum: accept wage offer or lose jobs",

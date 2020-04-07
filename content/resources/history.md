@@ -5,6 +5,7 @@ link: './history/'
 sublink: "/resources"
 layout: "breadcrumb_page"
 subdirectory: "Resources"
+CustomSummary: "TVCs have been around since the beginning of the tech industry. In 1992, contract & temporary workers at Microsoft filed a lawsuit against being misclassified as independent contractors despite being 'Perma-temps'"
 ---
 
 TVCs have been around since the beginning of the tech industry
@@ -13,7 +14,7 @@ The 1992 Landmark Temp-Worker Microsoft Case
 
 -   In 1992, contract & temporary workers at Microsoft filed a lawsuit against being misclassified as independent contractors despite being "Perma-temps"
 
--   Working full-time or more hours.
+-   Working full-time or more hours. <!--more--> 
 
 -   Working alongside full-time employees.
 

@@ -5,6 +5,7 @@ title: "Tips for Documentation"
 sublink: "/rights"
 layout: "breadcrumb_page"
 subdirectory: "Know Your Rights"
+CustomSummary: "Start a Job Journal, noting positive and negative comments from supervisors and managers."
 ---
 "Start a Job Journal, noting positive and negative comments from supervisors and managers. Keep notes from meetings, schedule changes, etc. Make sure you note when, where, why, etc. Save company memos and pay stubs, ANYTHING that you think will help your case if you must use a government agency to fight the boss." - [IWW](https://www.iww.org/organize)
 
