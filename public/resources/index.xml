@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Tech Contracting</title>
+    <link>/resources/</link>
+    <description>Recent content in Resources on Tech Contracting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Covid 19 Resources</title>
+      <link>/resources/covid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/covid/</guid>
+      <description>Working class people across the world are organizing and mobilizing to support each other at the sites of the workplace, housing, and beyond to deal with this new health crisis. When the ruling class fails to take care of us, we will find ways to take care of each other, and organize for even better labor and living conditions. This article features mostly US-based local initiatives and programs to alleviate the effects of the pandemic and its various impacts on workers.</description>
+    </item>
+    
+    <item>
+      <title>History of Contracting</title>
+      <link>/resources/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/history/</guid>
+      <description>&lt;p&gt;TVCs have been around since the beginning of the tech industry&lt;/p&gt;
+&lt;p&gt;The 1992 Landmark Temp-Worker Microsoft Case&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In 1992, contract &amp;amp; temporary workers at Microsoft filed a lawsuit against being misclassified as independent contractors despite being &amp;ldquo;Perma-temps&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Working full-time or more hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reading List</title>
+      <link>/resources/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/reading/</guid>
+      <description>A selection of readings to keep you up to date on contracting in tech.</description>
+    </item>
+    
+  </channel>
+</rss>

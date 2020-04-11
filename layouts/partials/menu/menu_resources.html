@@ -4,11 +4,11 @@
             <a href="{{ `/resources` | relURL }}" class="subdir-menu">Resources</a>
 
             <ul class="dropdown">
-                    {{ range where .Site.Pages ".Params.subdirectory" "=" "Resources" }}
-                    <li>
-                        <a href="{{ .Site.BaseURL }}/resources{{ .Params.Link }}"> {{.Params.Title }} </a>
-                    </li>
-                    {{ end }}
+                {{ range where .Site.Pages ".Params.subdirectory" "=" "Resources" }}
+                <li>
+                    <a href="{{ .Site.BaseURL }}/resources{{ .Params.Link }}"> {{.Params.Title }} </a>
+                </li>
+                {{ end }}
             </ul>
         </li>
     </ul>

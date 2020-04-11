@@ -4,11 +4,11 @@
         <li>
             <a href="{{ `/rights` | relURL }}" class="subdir-menu">Know Your Rights</a>
             <ul class="dropdown">
-                    {{ range where .Site.Pages ".Params.subdirectory" "=" "Rights" }}
-                    <li>
-                        <a href="{{ .Site.BaseURL }}/rights{{ .Params.Link }}"> {{.Params.Title }} </a>
-                    </li>
-                    {{ end }}
+                {{ range where .Site.Pages ".Params.subdirectory" "=" "Rights" }}
+                <li>
+                    <a href="{{ .Site.BaseURL }}/rights{{ .Params.Link }}"> {{.Params.Title }} </a>
+                </li>
+                {{ end }}
             </ul>
         </li>
     </ul>

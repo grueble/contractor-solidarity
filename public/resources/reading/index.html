@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        
+        <title>Reading List - Tech Contracting</title>
+        
+      
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+      
+        
+        <meta name="generator" content="khata theme by Darshan in Hugo 0.67.1" />
+        
+      
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+          crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/css/khata.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans:400|Roboto+Mono&display=swap" rel="stylesheet">
+
+       
+        <link href="/css/custom.css" rel="stylesheet"  type="text/css">
+        <script src="/js/khata.js" /></script>
+      </head>
+  <body class="bg-light">
+    <div class="wrapper">
+      <div class="header">
+    <nav id="main-nav">
+      <div class="hamburger-icon-container">
+        <span class="text-white border-bottom text-uppercase ml-2">Tech Contracting</span>
+        <i class="hamburger fas fa-bars mr-4" onclick="toggleMainMenu(this)"></i>
+      </div>
+      <div class="all-menu expanded standard">
+        <div class="main-menu"><a href="/">Home</a></div>
+
+        <div class="main-menu" role="navigation">
+    <ul>
+        <li>
+            <a href="/resources" class="subdir-menu">Resources</a>
+
+            <ul class="dropdown">
+                    
+                    <li>
+                        <a href="/resources/covid/"> Covid 19 Resources </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/resources/history/"> History of Contracting </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/resources/reading/"> Reading List </a>
+                    </li>
+                    
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+        <div class="main-menu">
+
+    <ul>
+        <li>
+            <a href="/rights" class="subdir-menu">Know Your Rights</a>
+            <ul class="dropdown">
+                    
+                    <li>
+                        <a href="/rights/kyr/"> Rights, Retaliation, and HR </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/rights/tips/"> Tips for Documentation </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/rights/tricks/"> Tricks </a>
+                    </li>
+                    
+            </ul>
+        </li>
+    </ul>
+</div>
+
+        <div class="main-menu"><a href="/contact">Contact</a></div>
+
+      </div>
+    </nav>
+  </div>
+  <script>
+    let toggleDisplay = function(elem) {
+      elem.classList.toggle("d-none");
+    };
+    let toggleMainMenu = function(x) {
+      toggleDisplay(x.parentNode.nextElementSibling);
+      document.querySelector(".hamburger").classList.toggle("fa-bars");
+      document.querySelector(".hamburger").classList.toggle("fa-times");
+      if (document.querySelector(".dropdown-content")) {
+        resetSectionMenu();
+        zeroHeight(document.querySelector(".dropdown-content"));
+      }
+    };
+    let resetMainMenu = function() {
+      document.querySelector(".hamburger").classList.add("fa-bars");
+      document.querySelector(".hamburger").classList.remove("fa-times");
+    };
+    function smMenu(x) {
+      let allMenu = document.querySelector(".all-menu");
+      let dropDown = document.querySelector(".dropdown-content");
+      if (x.matches) {
+        allMenu.classList.add("d-none");
+        allMenu.style.flexDirection = "column";
+        if (dropDown) {
+          resetSectionMenu();
+          dropDown.style.width = "calc(90vw - 4.5px)";
+          dropDown.style.maxHeight = "0px";
+          dropDown.style.position = "static";
+        }
+        resetMainMenu();
+      } else {      
+        allMenu.classList.remove("d-none");
+        allMenu.style.flexDirection = "row";
+        if (dropDown) {
+          dropDown.style.width = "auto";
+          resetSectionMenu();
+          dropDown.style.maxHeight = "0px";
+          dropDown.style.position = "absolute";
+        }
+        resetMainMenu();
+      }
+    }
+    let vw = window.matchMedia("(max-width: 750px)");
+    smMenu(vw); 
+    vw.addListener(smMenu); 
+  </script>
+  
+      <main>
+        
+  
+
+  
+    
+<div class="standard main rounded mt-4 mb-4" role="main">
+  <article class="shadow p-4 border border-secondary rounded position-relative" style="min-height: calc(100vh - 250px)">
+    
+    <div class="single-page-header">
+    <h1 class="top-h1">Reading List</h1>
+    <h5>  </h5>
+
+    <div class="breadcrumb-navbar">
+    <a href="/"> Home / </a>
+    <a href="/resources"> Resources / </a>
+    <span> Reading List </span>
+</div>
+
+
+  </div>
+
+
+    <hr />
+
+
+    
+    
+
+    <div>
+        
+            <h4><a href="https://www.theguardian.com/technology/2018/dec/20/facebook-contractors-filter-digital-labor-dispute-christmas" target="_blank"> Facebook contractors faced Christmas ultimatum: accept wage offer or lose jobs </a></h4>
+            <i>- The Guardian</i>
+            <p> &#39; Facebook just has this internal culture of ‘We treat our employees so well; everyone is so happy’, and I think that’s relatively true for full time employees. But there’s this massive other part of the workplace that you don’t engage with that much, and it’s really different for them. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://medium.com/@GoogleWalkout/invisible-no-longer-googles-shadow-workforce-speaks-up-9ea04b7bcc41" target="_blank"> Invisible no longer: Google’s shadow workforce speaks up </a></h4>
+            <i>- Medium</i>
+            <p> &#39; The exclusion of TVCs from important communications and fair treatment is part of a system of institutional racism, sexism, and discrimination. TVCs are disproportionately people from marginalized groups who are treated as less deserving of compensation, opportunities, workplace protections, and respect. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://notesfrombelow.org/article/organising-silicon-valleys-shadow-workforce?fbclid=IwAR3PLBR6n2xr3hN0n5bSuCtzO0k-6Z_0yaTVbfddKEJS90N4leX-dxzOQEw" target="_blank"> Organising Silicon Valley&#39;s Shadow Workforce </a></h4>
+            <i>- Notes From Below</i>
+            <p> &#39; Once you recognise the imbalance inherent in the company-contractor relationship, the story these companies tell to justify their use of contractors starts to fall apart. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://thehill.com/policy/technology/415759-tech-labor-group-criticizes-google-work-place-changes-for-excluding?fbclid=IwAR2jN3SFUwEd3J483E_q69Bl3Nm_pBceLWyAZ7jAWZiMkCH5CwI61Hp0DzU" target="_blank"> Labor group slams Google workplace changes for treatment of contractors </a></h4>
+            <i>- The Hill</i>
+            <p> &#39; This deliberate sleight demonstrates the caste-like system deployed by Google, which fails to protect its workers and our colleagues. For a company that likes to innovate, it’s striking to see such a lack of vision for treating all of their workforce with basic dignity. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://onezero.medium.com/visa-workers-at-techs-biggest-companies-speak-out-about-discrimination-298c9fa686b6" target="_blank"> Exclusive Survey Reveals Discrimination Against Visa Workers at Tech’s Biggest Companies </a></h4>
+            <i>- One Zero</i>
+            <p> &#39; I believe that H-1B employees tend to tolerate more bullshit from managers because they cannot move to another company that easily, and they cannot just rage-quit. This is possibly the key reason why managers like H-1Bs — lower turnover rate and employees who will take more shit. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://www.washingtonpost.com/news/made-by-history/wp/2017/11/16/subcontracting-silicon-valleys-riskiest-work/" target="_blank"> Subcontracting: Silicon Valley’s riskiest work </a></h4>
+            <i>- Washington Post</i>
+            <p> &#39; The use of subcontractors makes it hard to hold the primary business legally responsible when workers are hurt on the job or wages go unpaid. Through subcontracting, companies like Twitter avoid the cost of keeping workers’ bodies healthy and able to work with health insurance and safe workplaces. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://medium.com/@techworkersco_79433/who-fired-the-ras-organizing-the-worst-job-at-facebook-97c63cb40683" target="_blank"> Who Fired the RAs? Organizing the “Worst Job” at Facebook </a></h4>
+            <i>- Medium</i>
+            <p> &#39; Very suddenly in May, nine RAs were fired without warning. When asked for the reason, the management told them that they had violated a company policy. There was just one problem — the policy in question didn’t exist. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://www.vox.com/recode/2019/9/24/20880727/google-workers-unionized-contractors-hcl-tech-activism" target="_blank"> Tech workers have been reluctant to unionize, but Google contractors just changed that </a></h4>
+            <i>- Vox</i>
+            <p> &#39; But at the desk-job level, Google temps haven’t had much success in organizing. In March, Google abruptly fired over 34 members of its voice assistant team, who, like the Pittsburgh workers, were highly educated workers doing technically skilled jobs. &#39; </p>
+            <hr />
+        
+            <h4><a href="https://www.kqed.org/news/11741371/two-tiered-caste-system-the-world-of-white-collar-contracting-in-silicon-valley" target="_blank"> ‘Two-Tiered Caste System’: The World of White-Collar Contracting in Silicon Valley </a></h4>
+            <i>- KQED</i>
+            <p> &#39; All of the temporary contract workers in this story hoped to move on or convert to employee status, but at most tech companies there is no direct path for them to do so. &#39; </p>
+            <hr />
+        
+    </div>
+
+
+  </article>
+</div>
+
+
+
+
+
+  
+
+
+      </main>
+    </div>
+    <div class="footer">
+        
+    </div>
+  </body>
+</html>

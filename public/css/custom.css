@@ -256,20 +256,8 @@ div.subdir-header {
     background: #E5E5E5;
    }
 
-   .main-menu li:not(:hover) a {
-       color: white !important;
-   }
-
-   .main-menu li:hover a, .subdir-menu:active {
+   .main-menu li:hover a {
     color: black !important;
-   }
-
-   .main-menu:hover .subdir-menu {
-    color: black !important;
-   }
-
-   .main-menu ul li ul li:not(:hover) a {
-       color: white !important;
    }
 
    .main-menu {
