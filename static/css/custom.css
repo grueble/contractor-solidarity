@@ -199,7 +199,7 @@ div.subdir-header {
    }
    
    .main-menu ul li ul {
-     opacity: 0;
+     display: none;
      position: absolute;
      transition: all 0.5s ease;
      margin-top: 1rem;
@@ -209,12 +209,12 @@ div.subdir-header {
    .main-menu ul li:hover > ul,
    .main-menu ul li ul:hover,
    .main-menu:hover {
-     opacity: 1;
-     transition: opacity .25s;
-     -webkit-transiton: opacity .25s;
-     -moz-transition: opacity .25s;
-     -ms-transition: opacity .25s;
-     -o-transition: opacity .25s;
+     display: block;
+     transition: display .25s;
+     -webkit-transiton: display .25s;
+     -moz-transition: display .25s;
+     -ms-transition: display .25s;
+     -o-transition: display .25s;
    }
 
    /* test by uncommenting hover content block here */
