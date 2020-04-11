@@ -2,7 +2,7 @@
 title: "Reading List"
 type: "page"
 layout: "breadcrumb_page"
-link: "./reading/"
+link: "/reading/"
 sublink: "/resources"
 subDirectory: "Resources"
 CustomSummary: "A reading primer for understanding the TVC struggle in the tech industry."

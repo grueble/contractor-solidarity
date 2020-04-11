@@ -1,5 +1,5 @@
 ---
-link: './tips/'
+link: '/tips/'
 type: 'page'
 title: "Tips for Documentation"
 sublink: "/rights"

@@ -1,6 +1,6 @@
 ---
 subdirectory: "Rights"
-link: "./kyr/"
+link: "/kyr/"
 type: "page"
 title: "Rights, Retaliation, and HR"
 layout: "breadcrumb_page"

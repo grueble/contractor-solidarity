@@ -1,7 +1,7 @@
 ---
 title: "History of Contracting"
 type: "page"
-link: './history/'
+link: '/history/'
 sublink: "/resources"
 layout: "breadcrumb_page"
 subdirectory: "Resources"

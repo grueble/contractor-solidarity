@@ -1,5 +1,4 @@
 
-baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tech Contracting"
 theme = "khata"
@@ -28,5 +27,17 @@ buildDrafts = true
     title = "Know Your Rights"
     url = "/rights/"
 
+  [[menu."ReadingList"]]
+    name = "Reading List"
+    url = "/resources/history/"
+    weight = 1
+    parent = "Resources"
+
+# config variable; change when deploying
+
+# local: http://localhost:1313
+# deployed: https://techcontracting.work
+
+baseURL = "https://techcontracting.work"
 
 

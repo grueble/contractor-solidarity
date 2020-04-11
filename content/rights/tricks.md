@@ -1,5 +1,5 @@
 ---
-link: "./tricks/"
+link: "/tricks/"
 subdirectory: "Rights"
 sublink: "/rights"
 layout: "breadcrumb_page"

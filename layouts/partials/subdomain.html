@@ -14,7 +14,7 @@
           <div class="subpage-section">
               <h4> {{ .Params.Title }} </h4>
               <p> {{ .Params.CustomSummary | default .Summary }} </p>
-              <a href="{{ .Params.Link }}">Read more </a>
+              <a href=".{{ .Params.Link }}">Read more </a>
           </div>
           {{ end }}
       </div>
