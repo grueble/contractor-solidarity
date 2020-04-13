@@ -164,21 +164,7 @@ div.subdir-header {
     } */
 
 
-/*    --media queries--   */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
 
-    .photo-side, .title-side  {
-        width: 50%;
-    }
-
-    .about-photo {
-        margin: 1.5em;
-    }
-}
-/*  ------------------   */
 
 .main-menu  a {
     color: white !important;
@@ -285,3 +271,41 @@ div.subdir-header {
    }
 
    /*  ------------------ */
+
+   /*    --media queries--   */
+
+   /*desktop catchall */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+
+  .photo-side, .title-side  {
+      width: 50%;
+  }
+
+  .about-photo {
+      margin: 1.5em;
+  }
+}
+
+/* mobile catchall */
+@media screen 
+and (max-device-width: 720px) { 
+
+    .mobile-hide {
+        display: none !important;
+    }
+
+    /* .top-h1 {
+        font-size: 2.5em !important;
+    }
+
+    .breadcrumb-navbar {
+        font-size: 1.5em !important;
+    } */
+}
+
+
+
+/*  ------------------   */
