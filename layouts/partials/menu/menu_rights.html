@@ -6,7 +6,7 @@
             <ul class="dropdown mobile-hide">
                 {{ range where .Site.Pages ".Params.subdirectory" "=" "Rights" }}
                 <li>
-                    <a href="{{ .Site.BaseURL }}rights{{ .Params.Link }}"> {{.Params.Title }} </a>
+                    <a href="{{ .Site.BaseURL }}/rights{{ .Params.Link }}"> {{.Params.Title }} </a>
                 </li>
                 {{ end }}
             </ul>

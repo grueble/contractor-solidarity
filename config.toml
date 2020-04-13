@@ -38,7 +38,7 @@ buildDrafts = true
 # local: http://localhost:1313
 # deployed: https://techcontracting.work
 
-# baseUrl = "http://localhost:1313/"
-baseURL = "https://techcontracting.work/"
+# baseUrl = "http://localhost:1313"
+baseURL = "https://techcontracting.work"
 
 
